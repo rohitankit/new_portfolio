@@ -41,6 +41,47 @@ button {
 
 /* 
 
+NAV BAR
+
+*/
+
+nav {
+    height: 100px;
+    width: 100%;      
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#personal-logo {
+    height: 80px;
+    width: 80px;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__link {
+    margin: 0 12px;
+}
+
+.nav__link--anchor {
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700; 
+}
+
+.fa-adjust {
+    font-size: 20px; 
+}
+
+/* 
+
 Landing page
 
 */
@@ -142,48 +183,7 @@ Landing page
     }
 }
 
-/* 
-
-NAV BAR
-
-*/
-
-nav {
-    height: 100px;
-    width: 100%;      
-    max-width: 1200px;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#personal-logo {
-    height: 80px;
-    width: 80px;
-}
-
-.nav__link--list {
-    display: flex;
-}
-
-.nav__link {
-    margin: 0 12px;
-}
-
-.nav__link--anchor {
-    text-decoration: none;
-    font-size: 16px;
-    color: #242424;
-    font-weight: 700; 
-}
-
-.fa-adjust {
-    font-size: 20px; 
-}
-
-/* Projects */
+/* PROJECTS */
 
 .container {
     padding: 50px 0;
@@ -271,3 +271,30 @@ nav {
 .project__wrapper:hover .project__wrapper--background {
     opacity: 0.7;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #242424;
+}
+
+.footer__row {
+    padding: 6% 0;
+}
+
+.footer__logo--wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer__logo--img {
+    width: 70px;
+}
+
+.footer__social--list {
+    display: flex;
+    justify-content: space-around;
+}
+
+
